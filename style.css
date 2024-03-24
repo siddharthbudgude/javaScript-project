@@ -4,15 +4,26 @@
 }
 
 .nav-bar {
-    background-color: #000;
+    background-color: #fff;
     padding: 10px;
     display: flex;
-    color: #fff;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     gap: 30px;
-
-    a{
-        color: #fff;
-        text-decoration: none;
-    }
+}
+.site-logo img{
+    width: 80px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.user-gideline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
