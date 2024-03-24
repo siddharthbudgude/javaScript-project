@@ -27,3 +27,6 @@
     align-items: center;
     gap: 30px;
 }
+.user-gideline span a{
+    text-decoration: none;
+}
